@@ -14,6 +14,7 @@
 		047804DC2799971A00E01EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047804DB2799971A00E01EC2 /* Assets.xcassets */; };
 		047804DF2799971A00E01EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047804DD2799971A00E01EC2 /* LaunchScreen.storyboard */; };
 		047804E72799A56300E01EC2 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047804E62799A56300E01EC2 /* ContactTableViewCell.swift */; };
+		0484EA5A279FC78D00DCDC5D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484EA59279FC78D00DCDC5D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		047804DE2799971A00E01EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047804E02799971A00E01EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047804E62799A56300E01EC2 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		0484EA59279FC78D00DCDC5D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				047804D22799971900E01EC2 /* AppDelegate.swift */,
 				047804D42799971900E01EC2 /* SceneDelegate.swift */,
 				047804D62799971900E01EC2 /* ViewController.swift */,
+				0484EA59279FC78D00DCDC5D /* DetailViewController.swift */,
 				047804E62799A56300E01EC2 /* ContactTableViewCell.swift */,
 				047804D82799971900E01EC2 /* Main.storyboard */,
 				047804DB2799971A00E01EC2 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				047804E72799A56300E01EC2 /* ContactTableViewCell.swift in Sources */,
 				047804D72799971900E01EC2 /* ViewController.swift in Sources */,
+				0484EA5A279FC78D00DCDC5D /* DetailViewController.swift in Sources */,
 				047804D32799971900E01EC2 /* AppDelegate.swift in Sources */,
 				047804D52799971900E01EC2 /* SceneDelegate.swift in Sources */,
 			);

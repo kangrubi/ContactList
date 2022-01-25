@@ -29,18 +29,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "contactCell", for: indexPath) as? ContactTableViewCell else { return UITableViewCell() }
         
         let name = contactNameArray[indexPath.row]
-        cell.nameLabel.text = name
-        
         let phone = contactPhoneArray[indexPath.row]
+        
+        cell.nameLabel.text = name
         cell.phoneLabel.text = phone
-        
+
         return cell
-        
         
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
+    }
+    // did 했다 (과거)
+    // didSelectRowAt - 행을 선택 했다.
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // action
     }
 
 }
